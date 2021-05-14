@@ -1,0 +1,158 @@
+body {
+    text-align: center;
+    background-color: #282c34;
+    color:white;
+    margin: 0;
+  }
+  .content{
+      font-size: 16px;
+  }
+  .form{
+      justify-content: center;
+      text-align: center;
+  }
+  .seventy{
+      width:70%;
+      float: left;
+  }
+  .thirty{
+      width:30%;
+      float: left;
+  }
+  .clear{
+      clear:both;
+  }
+  .input{
+      font-size: 20px;
+      padding-top:8px;
+      padding-bottom: 8px;
+  }
+  @media (min-width:994px){
+      .form{
+          width:60%;
+          justify-content: center;
+      }
+      .input{
+          padding-left: 2%;
+          padding-right: 2%;
+          width:84%;
+      }
+      .btn{
+          width:10%;
+          border:0;
+          color:white;
+          font-size: 20px;
+          padding-top:10px;
+          padding-bottom: 9px;
+      }
+      .todo{
+          width:60%;
+      }
+      
+    .filter{
+        font-size: 20px;
+        padding-top:8px;
+        padding-bottom: 8px;
+      }
+  }
+  @media(max-width:993px){
+      .todo{
+          width:90%;
+      }
+      .form{
+          width:90%;
+      }
+      .input{
+        padding-left: 2%;
+        padding-right: 2%;
+        width:74%;
+    }
+    .btn{
+        width:20%;
+        border:0;
+        color:white;
+        font-size: 20px;
+        padding-top:10px;
+        padding-bottom: 9px;
+        border-width: 0ch;
+    }
+    .filter{
+      font-size: 12px;
+      padding-top:12px;
+      padding-bottom: 12px;
+    }
+  }
+  .filter{
+      width:80%;
+      border:0;
+      color:rgb(0, 0, 0);
+      background:rgb(233, 233, 233);
+  }
+  option{
+      color:black
+  }
+  .btn{
+    background-color: rgb(255, 94, 1);
+  }
+  .todo{
+      font-size: 18px;
+      padding-bottom: 8px;
+  }
+  .todo-item{
+      color:white;
+      background-color: #3f3f41;
+      width:60%;
+      padding-left: 2%;
+      padding-right: 2%;
+      float: left;
+      padding-top:10px;
+      padding-bottom: 10px;
+  }
+  .check{
+      width:18%;
+      background-color: rgb(13, 110, 73);
+      float: left;
+      color:white;
+      border:0;
+      padding-top:10px;
+      font-size: 18px;
+      padding-bottom: 10px;
+  }
+  .del{
+    background-color: red;
+    width:18%;
+    font-size: 18px;
+    color:white;
+    float: left;
+    border:0;
+    padding-top:10px;
+    padding-bottom: 10px;
+
+  }
+
+  a{
+      text-decoration: none;
+      color:inherit;
+  }
+  .footer{
+      bottom: 0;
+      position: fixed;
+      background-color: black;
+      color:white;
+      padding-left: 3%;
+      padding-right: 3%;
+      text-align: center;
+      width:94%;
+      padding-top:10px;
+      padding-bottom: 10px;
+  }
+  .icon{
+      padding-right: 5px;
+      padding-left: 5px;
+      padding-bottom: 5px;
+      font-size: 17px;
+      float: left;
+  }
+  .completed{
+      text-decoration: line-through;
+  }
