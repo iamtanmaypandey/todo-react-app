@@ -5,7 +5,7 @@ ToDo is a minimal app created using Reactjs framework.
 Go to Releases and Download the .zip file
 
 
-##Info
+## Info
 I used gh-pages to publish my code to github pages and make it accessible for everyone to use it.
 
 Check the app : https://iamtanmaypandey.github.io/todo-react-app/
