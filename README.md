@@ -2,7 +2,7 @@
 ToDo is a minimal app created using Reactjs framework.
 
 ## Get source code
-Go to Releases and Download the .zip file
+Go to Releases and Download the .rar compressed file
 
 
 ## Info
